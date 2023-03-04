@@ -1,3 +1,7 @@
 function reverseString(string) {
-  // Coding here
+  if (!string) {
+    return
+  } 
+  console.log(string.split("").reverse().join(""));
 }
+reverseString("Hello there")
